@@ -1,4 +1,4 @@
-class profile::base {
+class profiles::base {
   include motd
   include ntp
 }
