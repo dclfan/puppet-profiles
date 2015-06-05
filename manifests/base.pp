@@ -1,3 +1,6 @@
 class profiles::base {
-   include nsswitch
+   include ::nsswitch
+   include ::motd
+   include ::network
+   include ::ntp
 }
