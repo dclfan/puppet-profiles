@@ -1,3 +1,3 @@
 class profiles::base {
-   include ::nsswitch
+   include nsswitch
 }
