@@ -1,6 +1,6 @@
 class profiles::base {
-  include motd
-  include ntp
-  include nsswitch
-  include network
+  class { '::motd': }
+  class { '::ntp': }
+  class { '::nsswitch': }
+  class { '::network': }
 }
