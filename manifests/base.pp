@@ -3,4 +3,5 @@ class profiles::base {
    include ::motd
    include ::network
    include ::ntp
+   include ::ssh
 }
