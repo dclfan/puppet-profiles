@@ -4,5 +4,4 @@ class profiles::base {
    include ::network
    include ::ntp
    include ::ssh
-   include ::sensu
 }
